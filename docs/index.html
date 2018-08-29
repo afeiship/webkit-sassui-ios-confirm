@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>webkit-sassui-ios-confirm</title>
+  <link rel="stylesheet" href="./test.css">
+</head>
+
+<body ontouchstart="">
+
+  <div class="blank"></div>
+
+  <div id="confirm1" class="webkit-sassui-ios-confirm test-webkit-sassui-ios-confirm" hidden>
+    <div class="hd">
+      New Friend!
+    </div>
+    <div class="bd" id="confirm-msg-13">Your friend, Obi wan Kenobi, just approved your friend request!</div>
+    <div class="ft">
+      <button id="close1">Ok</button>
+      <button id="cancel">Cancel</button>
+    </div>
+  </div>
+
+
+
+  <button class="button" id="btn1">Show Standard confirm</button>
+
+  <script>
+    var confirm1 = document.getElementById('confirm1');
+    var btn1 = document.getElementById('btn1');
+    var close1 = document.getElementById('close1');
+
+    btn1.onclick = function () {
+      confirm1.removeAttribute('hidden');
+    }
+
+    close1.onclick = function () {
+      confirm1.setAttribute('hidden', true);
+    }
+
+
+  </script>
+
+</body>
+
+</html>

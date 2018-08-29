@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-ios-confirm",
+  "description": "Webkit sass for ios style confirm",
+  "main": [
+    "dist/webkit-sassui-ios-confirm.css",
+    "dist/webkit-sassui-ios-confirm.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "ios-confirm"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-ios-confirm",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
