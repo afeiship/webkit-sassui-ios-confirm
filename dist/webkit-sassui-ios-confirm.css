@@ -1,40 +1,42 @@
 /*webkit-sassui-ios-confirm Start*/
-.webkit-sassui-ios-confirm {
+/*webkit-sassui-ios-modal Start*/
+.webkit-sassui-ios-modal {
   font-family: -apple-system,"Helvetica Neue",Roboto,sans-serif;
   border-radius: 13px;
   overflow: hidden;
   width: 75%;
   background-color: #f8f8f8;
   text-align: center; }
-  .webkit-sassui-ios-confirm,
-  .webkit-sassui-ios-confirm > * {
+  .webkit-sassui-ios-modal,
+  .webkit-sassui-ios-modal > * {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
-    touch-action: none;
     -webkit-user-select: none;
     user-select: none; }
-  .webkit-sassui-ios-confirm > .hd {
+  .webkit-sassui-ios-modal > .hd {
     padding: 14px 16px;
     font-size: 17px;
     font-weight: 600; }
-  .webkit-sassui-ios-confirm > .bd {
+  .webkit-sassui-ios-modal > .bd {
     font-size: 13px;
     padding: 12px 16px; }
-  .webkit-sassui-ios-confirm > .ft {
-    display: flex; }
-    .webkit-sassui-ios-confirm > .ft button {
-      flex: 1 1 auto;
-      width: 100%;
-      height: 44px;
-      border-top: .55px solid #dbdbdf;
-      font-size: 17px;
-      color: #488aff;
-      background-color: transparent;
-      user-select: none;
-      opacity: 1;
-      transition: opacity 0.3s;
-      border-left: .55px solid #dbdbdf; }
-      .webkit-sassui-ios-confirm > .ft button:active {
-        opacity: .4; }
+  .webkit-sassui-ios-modal > .ft button {
+    height: 44px;
+    border-top: .55px solid #dbdbdf;
+    font-size: 17px;
+    color: #488aff;
+    background-color: transparent;
+    opacity: 1;
+    transition: opacity 0.3s; }
+    .webkit-sassui-ios-modal > .ft button:active {
+      opacity: .4; }
+
+/*webkit-sassui-ios-modal End*/
+.webkit-sassui-ios-confirm > .ft {
+  display: flex; }
+  .webkit-sassui-ios-confirm > .ft button {
+    flex: 1; }
+    .webkit-sassui-ios-confirm > .ft button + button {
+      border-left: 0.55px solid #dbdbdf; }
 
 /*webkit-sassui-ios-confirm End*/

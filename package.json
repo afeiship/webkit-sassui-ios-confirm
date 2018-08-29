@@ -21,5 +21,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "webkit-sassui-ios-modal": "github:afeiship/webkit-sassui-ios-modal"
   }
 }
